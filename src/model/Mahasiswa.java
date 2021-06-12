@@ -16,13 +16,13 @@ public class Mahasiswa {
 
     }
 
-    public void tampilkanAtribut(){
+    void tampilkanAtribut(){
         System.out.println("NPM \t\t\t : " + this.npm);
         System.out.println("Nama \t\t\t : " + this.nama);
         System.out.println("Tanggal Lahir \t\t\t : " + SDF.format(this.tanggalLahir));
     }
 
-    Mahasiswa(String npm, String nama, String tanggalLahir) {
+    public Mahasiswa(String npm, String nama, String tanggalLahir) {
         this.npm = npm;
         this.nama = nama;
         try {
