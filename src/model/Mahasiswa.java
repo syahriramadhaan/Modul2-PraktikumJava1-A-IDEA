@@ -22,7 +22,7 @@ public class Mahasiswa {
         System.out.println("Tanggal Lahir \t\t\t : " + SDF.format(this.tanggalLahir));
     }
 
-    public Mahasiswa(String npm, String nama, String tanggalLahir) {
+    Mahasiswa(String npm, String nama, String tanggalLahir) {
         this.npm = npm;
         this.nama = nama;
         try {
